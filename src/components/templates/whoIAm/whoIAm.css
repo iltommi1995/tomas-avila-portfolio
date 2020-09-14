@@ -1,0 +1,73 @@
+.who-i-am-container {
+    grid-column: 1/13;
+    grid-row: 1/25;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+    background-color: black;
+}
+
+.my-image-container {
+    grid-column: 6/8;
+    grid-row: 5/12;
+    
+}
+
+.my-image {
+    width: 13em;
+    height: 13em;
+    border-radius: 100%;
+    background-size: 180%;
+    background-position-x: 50%;
+    background-position-y: 60%;
+}
+
+.my-name {
+    grid-column: span 12;
+    grid-row: 12/14;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.my-description {
+    grid-column: 5/9;
+    grid-row: 14/ 16;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.my-skills {
+    grid-column: 5/9;
+    grid-row: 17/ 20;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.my-skills-icons {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-skills-icons > img {
+    height: 2em
+}
+
+.my-socials {
+    grid-column: 5/9;
+    grid-row: 21/ 24;
+    color: white;
+}
+
+.my-social-icons {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-social-icons > a > img {
+    height: 2em
+}

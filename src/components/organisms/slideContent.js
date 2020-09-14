@@ -13,7 +13,9 @@ export default function SlideContent(props) {
 Aenean vehicula accumsan rhoncus. as </p>
             </div>
             <div className="slide-content-image" style={{ backgroundImage: `url(${Background})` }}>
-
+                <h2>
+                    Primo progetto
+                </h2>
             </div>
         </div>
     )
