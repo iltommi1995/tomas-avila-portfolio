@@ -6,16 +6,14 @@ export default function SlideContent(props) {
     return (
         <div className="container">
             <div className="slide-content-text">
-                <h1 className="slide-title">{props.title}</h1>
-                <p className="slide-paragraph">Cras ac mi diam. Donec condimentum eget
-                egestas. Nam diam eros, convallis quis justo in,
-                pellentesque arcu convallis quis justo in, dictum.
-Aenean vehicula accumsan rhoncus. as </p>
+                <h1 className="slide-title">{props.subTitle}</h1>
+                <p className="slide-paragraph">{props.text} </p>
             </div>
             <div className="slide-content-image" style={{ backgroundImage: `url(${Background})` }}>
                 <h2>
-                    Primo progetto
+                    {props.title}
                 </h2>
+                <p>Developed with: {props.developed}</p>
             </div>
         </div>
     )

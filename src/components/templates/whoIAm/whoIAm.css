@@ -8,8 +8,10 @@
 }
 
 .my-image-container {
-    grid-column: 6/8;
+    grid-column: span 12;
     grid-row: 5/12;
+    display: flex;
+    justify-content: center;
     
 }
 
