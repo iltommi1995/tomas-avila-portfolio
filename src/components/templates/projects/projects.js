@@ -6,7 +6,7 @@ import '../../../App.css'
 
 export default function Slider(props) {
 
-    let sliderArr = [<SlideContent title="Hype Mapper: the new way to resell" path="/img/position_1.png" />, <SlideContent2 title="Slide 2" path="/img/position_2.png" />, <SlideContent2 title="Slide 3" path="/img/position_3.png" />, <SlideContent title="Slide 4" path="/img/position_4.png" />, <SlideContent title="Slide 5" path="/img/position_1.png" />]
+    let sliderArr = [<SlideContent title="Cinema site" path="/img/position_1.png" developed="React, html 5, css 3, Java Script" text="Site made using React. It's the first project i developed with React, for an university course." />, <SlideContent2 title="Slide 2" path="/img/position_2.png" />, <SlideContent2 title="Slide 3" path="/img/position_3.png" />, <SlideContent title="Slide 4" path="/img/position_4.png" />, <SlideContent title="Slide 5" path="/img/position_1.png" />]
 
 
 
