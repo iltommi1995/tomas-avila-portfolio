@@ -2,7 +2,7 @@
   "name": "tomas-avila-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iltommi1995.github.io/tomas-avila-portfolio/",
+  "homepage": "https://iltommi1995.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
