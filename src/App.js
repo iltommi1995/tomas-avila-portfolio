@@ -14,9 +14,9 @@ export default function App() {
     <div class="container">
       <Header />
       <Switch>
-        <Route exact path="/" component={WhoIAm} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/hobbies" component={Hobbies} />
+        <Route exact path="/tomas-avila-portfolio" component={WhoIAm} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/hobbies" component={Hobbies} />
       </Switch>
     </div>
   )

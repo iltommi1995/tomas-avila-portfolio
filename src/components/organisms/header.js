@@ -8,7 +8,7 @@ export default function Header() {
                 Tomàs Avila
             </div>
             <div className="header-nav">
-                <Link className="nav-link" to="/">Who i am</Link>
+                <Link className="nav-link" to="/tomas-avila-portfolio">Who i am</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
                 <Link className="nav-link" to="/hobbies">Hobbies</Link>
             </div>
