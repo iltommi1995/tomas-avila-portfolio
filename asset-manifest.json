@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tomas-avila-portfolio/static/css/main.dcb0693a.chunk.css",
+    "main.css": "/tomas-avila-portfolio/static/css/main.19eaa27b.chunk.css",
     "main.js": "/tomas-avila-portfolio/static/js/main.9e9509ba.chunk.js",
     "main.js.map": "/tomas-avila-portfolio/static/js/main.9e9509ba.chunk.js.map",
     "runtime-main.js": "/tomas-avila-portfolio/static/js/runtime-main.da040ec8.js",
@@ -8,15 +8,15 @@
     "static/js/2.245496e8.chunk.js": "/tomas-avila-portfolio/static/js/2.245496e8.chunk.js",
     "static/js/2.245496e8.chunk.js.map": "/tomas-avila-portfolio/static/js/2.245496e8.chunk.js.map",
     "index.html": "/tomas-avila-portfolio/index.html",
-    "precache-manifest.943c0b35026c9cf2e16e99da6551fd0d.js": "/tomas-avila-portfolio/precache-manifest.943c0b35026c9cf2e16e99da6551fd0d.js",
+    "precache-manifest.946a466ecaa1286ed51aedea3573f3b2.js": "/tomas-avila-portfolio/precache-manifest.946a466ecaa1286ed51aedea3573f3b2.js",
     "service-worker.js": "/tomas-avila-portfolio/service-worker.js",
-    "static/css/main.dcb0693a.chunk.css.map": "/tomas-avila-portfolio/static/css/main.dcb0693a.chunk.css.map",
+    "static/css/main.19eaa27b.chunk.css.map": "/tomas-avila-portfolio/static/css/main.19eaa27b.chunk.css.map",
     "static/js/2.245496e8.chunk.js.LICENSE.txt": "/tomas-avila-portfolio/static/js/2.245496e8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.da040ec8.js",
     "static/js/2.245496e8.chunk.js",
-    "static/css/main.dcb0693a.chunk.css",
+    "static/css/main.19eaa27b.chunk.css",
     "static/js/main.9e9509ba.chunk.js"
   ]
 }
