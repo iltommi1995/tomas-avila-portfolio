@@ -82,7 +82,7 @@ box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.75);
 }
 
     .toggler-container {
-    grid-column: 20/22;
+    grid-column: 21/24;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,11 +112,28 @@ box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.75);
 }
 
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 455px) { 
     .toggler-container {
-    grid-column: 18/20;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    grid-column: 20/23;
     }
 }
+
+@media screen and (max-width: 420px) { 
+    .toggler-container {
+    grid-column: 18/21;
+    }
+}
+
+@media screen and (max-width: 380px) { 
+    .toggler-container {
+    grid-column: 17/20;
+    }
+}
+
+@media screen and (max-width: 360px) { 
+    .toggler-container {
+    grid-column: 16/19;
+    }
+}
+
+
