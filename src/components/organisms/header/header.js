@@ -15,9 +15,7 @@ export default function Header(props) {
 
     return (
         <div className="header">
-            <div className="header-logo">
-                Tomàs Avila
-            </div>
+
             <div className="header-nav">
                 <Link className="nav-link" to="/tomas-avila-portfolio">Who i am</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
