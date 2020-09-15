@@ -29,9 +29,9 @@ export default function Header(props) {
             <div className={"mobile-nav " + mobileNav}>
                 <div className="close-nav" onClick={closeMobileNav}></div>
                 <div className="mobile-nav-links">
-                    <Link className="nav-link" to="/tomas-avila-portfolio">Who i am</Link>
-                    <Link className="nav-link" to="/projects">Projects</Link>
-                    <Link className="nav-link" to="/hobbies">Hobbies</Link>
+                    <Link className="nav-link" to="/tomas-avila-portfolio" onClick={closeMobileNav}>Who i am</Link>
+                    <Link className="nav-link" to="/projects" onClick={closeMobileNav}>Projects</Link>
+                    <Link className="nav-link" to="/hobbies" onClick={closeMobileNav}>Hobbies</Link>
                 </div>
             </div>
         </div>
