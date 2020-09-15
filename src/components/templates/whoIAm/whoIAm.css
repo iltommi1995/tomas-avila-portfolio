@@ -127,3 +127,12 @@
     }
 
 }
+
+@media screen and (max-width: 420px) {
+    .my-name > h1 {
+       font-size: 1.5em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
