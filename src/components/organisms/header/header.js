@@ -31,9 +31,9 @@ export default function Header(props) {
                     <img src={process.env.PUBLIC_URL + "/img/close_menu_icon.png"} className={(mobileNav === "") ? 'close-nav-closed' : ''} />
                 </div>
                 <div className="mobile-nav-links">
-                    <Link className="nav-link" to="/tomas-avila-portfolio" onClick={closeMobileNav}>Who i am</Link>
-                    <Link className="nav-link" to="/projects" onClick={closeMobileNav}>Projects</Link>
-                    <Link className="nav-link" to="/hobbies" onClick={closeMobileNav}>Hobbies</Link>
+                    <Link className={(mobileNav === "") ? 'nav-link-mobile' : 'nav-link-mobile nav-link-mobile-open'} to="/tomas-avila-portfolio" onClick={closeMobileNav}>Who i am</Link>
+                    <Link className={(mobileNav === "") ? 'nav-link-mobile' : 'nav-link-mobile nav-link-mobile-open'} to="/projects" onClick={closeMobileNav}>Projects</Link>
+                    <Link className={(mobileNav === "") ? 'nav-link-mobile' : 'nav-link-mobile nav-link-mobile-open'} to="/hobbies" onClick={closeMobileNav}>Hobbies</Link>
                 </div>
             </div>
         </div>
