@@ -77,9 +77,10 @@
 @media screen and (max-width: 768px) {
     .my-image-container {
         grid-column: span 12;
-        grid-row: 5/11;
+        grid-row: 4/10;
         display: flex;
-        justify-content: center;   
+        justify-content: center;  
+        align-items: center; 
     }
 
     .my-image {
@@ -93,7 +94,7 @@
 
     .my-name {
     grid-column: span 12;
-    grid-row: 11/12;
+    grid-row: 10/12;
     display: flex;
     justify-content: center;
     color: white;
@@ -134,5 +135,14 @@
     }
     p {
         font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .my-name > h1 {
+       font-size: 1.5em;
+    }
+    p {
+        font-size: 0.8em;
     }
 }
