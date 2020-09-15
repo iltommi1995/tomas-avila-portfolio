@@ -24,10 +24,12 @@ export default function Header(props) {
                 <Link className="nav-link" to="/hobbies">Hobbies</Link>
             </div>
             <div className="toggler-container">
-                <div id="mobile-toggler" onClick={openMobileNav}></div>
+                <img src={process.env.PUBLIC_URL + "/img/menu_icon.png"} id="mobile-toggler" onClick={openMobileNav} />
             </div>
             <div className={"mobile-nav " + mobileNav}>
-                <div className="close-nav" onClick={closeMobileNav}></div>
+                <div className="close-nav" onClick={closeMobileNav}>
+                    <img src={process.env.PUBLIC_URL + "/img/close_menu_icon.png"} className={(mobileNav === "") ? 'close-nav-closed' : ''} />
+                </div>
                 <div className="mobile-nav-links">
                     <Link className="nav-link" to="/tomas-avila-portfolio" onClick={closeMobileNav}>Who i am</Link>
                     <Link className="nav-link" to="/projects" onClick={closeMobileNav}>Projects</Link>

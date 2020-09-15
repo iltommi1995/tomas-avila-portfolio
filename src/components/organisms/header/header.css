@@ -42,6 +42,10 @@ box-shadow: 0px 1px 3px -1px rgba(255,255,255,0.75);
         display: none;   
 }
 
+.toggler-container {
+    display: none;
+}
+
 @media screen and (min-width: 1075px) and (max-width: 1320px) { 
     .header-nav {
         grid-column: 17/23;
@@ -73,8 +77,8 @@ box-shadow: 0px 1px 3px -1px rgba(255,255,255,0.75);
     grid-template-rows: repeat(12, 1fr);
     transition: width 1s;
     -webkit-box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.75);
-box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.75);
 }
 
     .mobile-nav-active {
@@ -91,24 +95,43 @@ box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.75);
     #mobile-toggler {
     height: 30px;
     width: 30px;
-    background-color: violet;
-    
-}
+    cursor: pointer;
+    transition: 0.5s;
+    }
+
+    #mobile-toggler:hover {
+    height: 35px;
+    width: 35px;
+    }
 
     .close-nav {
-    height: 30px;
-    width: 30px;
-    background-color: blue;
-    grid-row: 6/7;
+    grid-row: 6/8;
     grid-column: 1/2;
-}
+    display: flex;
+    align-items: center;
+    }
+
+    .close-nav-closed {
+        display: none;
+    }
+
+    .close-nav > img {
+        width: 40px;
+        margin-left: -50%;
+    }
 
     .mobile-nav-links {
-        grid-row: 3/8;
-        grid-column: 3/12;
+        grid-row: 4/10;
+        grid-column: 4/12;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
     }
+
+    .nav-link {
+        font-size: 1.5em;
+    }
+
 }
 
 
