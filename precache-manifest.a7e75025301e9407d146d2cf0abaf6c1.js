@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfa8c85064d58ce42fc8a70cda80bbe4",
+    "revision": "c67f9ceffc2790601d62e5aea665a52a",
     "url": "/tomas-avila-portfolio/index.html"
   },
   {
-    "revision": "1d5569c4444e416fbb86",
-    "url": "/tomas-avila-portfolio/static/css/main.5ec515b2.chunk.css"
+    "revision": "3020433ce31b4d61cc36",
+    "url": "/tomas-avila-portfolio/static/css/main.1ece1cd2.chunk.css"
   },
   {
     "revision": "513dbddc0ebf3b64b173",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tomas-avila-portfolio/static/js/2.245496e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1d5569c4444e416fbb86",
-    "url": "/tomas-avila-portfolio/static/js/main.3a7ba94f.chunk.js"
+    "revision": "3020433ce31b4d61cc36",
+    "url": "/tomas-avila-portfolio/static/js/main.502305be.chunk.js"
   },
   {
     "revision": "9d6dc59863e221e282da",
