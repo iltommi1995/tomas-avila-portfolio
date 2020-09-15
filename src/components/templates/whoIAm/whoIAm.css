@@ -71,7 +71,12 @@
 }
 
 .my-social-icons > a > img {
-    height: 2em
+    height: 2em;
+    transition: transform 0.5s;
+}
+
+.my-social-icons > a > img:hover {
+    transform: rotate(30deg);
 }
 
 @media screen and (max-width: 768px) {
