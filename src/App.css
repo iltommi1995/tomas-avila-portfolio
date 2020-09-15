@@ -15,45 +15,7 @@ body {
 
 
 
-/* Nav */
 
-.header {
-  grid-row: 1/4;
-  grid-column: 1/13;
-  background: black;
-  position: relative;
-  z-index: 10;
-  display: grid;
-  grid-template-columns: repeat(24, 1fr);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  gap: 20px;
-  -webkit-box-shadow: 0px 3px 8px -1px rgba(255,255,255,0.75);
--moz-box-shadow: 0px 3px 8px -1px rgba(255,255,255,0.75);
-box-shadow: 0px 1px 3px -1px rgba(255,255,255,0.75);
-}
-
-.header-logo {
-  grid-column: 2/5;
-  background-color: lightskyblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-nav {
-  grid-column: 18/23;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-link {
-  color:green;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 
 
 /* Slider */

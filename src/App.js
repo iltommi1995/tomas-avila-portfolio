@@ -10,9 +10,18 @@ import Projects from "./components/templates/projects/projects"
 import Hobbies from "./components/templates/hobbies/hobbies"
 
 export default function App() {
+
+  const [prova, setProva] = useState("");
+
+  const chiudiNav = function () {
+    setProva("mobile-nav-active")
+  }
+
+
+
   return (
-    <div class="container">
-      <Header />
+    <div class="container" onClick={chiudiNav}>
+      <Header nome={prova} />
       <Switch>
         <Route exact path="/tomas-avila-portfolio" component={WhoIAm} />
         <Route path="/projects" component={Projects} />
