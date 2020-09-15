@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import "./App.css";
 import Slider from './components/organisms/slider';
-import Header from './components/organisms/header';
+import Header from './components/organisms/header/header';
 import { Route, Switch } from 'react-router-dom';
 
 import WhoIAm from "./components/templates/whoIAm/whoIAm"
