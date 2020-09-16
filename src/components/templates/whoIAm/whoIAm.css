@@ -79,6 +79,41 @@
     transform: rotate(30deg);
 }
 
+@media screen and (max-width: 1024px) { 
+    .my-image-container {
+        grid-column: span 12;
+        grid-row: 5/11;
+        display: flex;
+        justify-content: center;  
+        align-items: center; 
+    }
+
+    .my-image {
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    background-size: 180%;
+    background-position-x: 50%;
+    background-position-y: 60%;
+    }
+
+    .my-name {
+    grid-column: span 12;
+    grid-row: 11/13;
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+    .my-description {
+        grid-column: 4/10;
+        grid-row: 13/16;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .my-image-container {
         grid-column: span 12;
@@ -89,8 +124,8 @@
     }
 
     .my-image {
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 8em;
     border-radius: 100%;
     background-size: 180%;
     background-position-x: 50%;

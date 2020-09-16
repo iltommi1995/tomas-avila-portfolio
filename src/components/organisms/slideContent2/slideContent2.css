@@ -1,0 +1,29 @@
+.slide-content-image-2 {
+  grid-column: 1/7;
+  grid-row: 1/25;
+  /*background-color: blueviolet;*/
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.slide-title-2 {
+  grid-column: 3/11;
+  grid-row: 2/4;
+}
+
+.slide-paragraph-2 {
+  grid-column: 3/11;
+  grid-row: 4/7;
+}
+
+.slide-content-text-2 {
+  grid-column: 7/13;
+  grid-row: 1/25;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}

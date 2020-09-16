@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-import SlideContent from '../../organisms/slideContent';
-import SlideContent2 from '../../organisms/slideContent2';
-import '../../../App.css'
+import SlideContent from '../../organisms/slideContent/slideContent';
+import SlideContent2 from '../../organisms/slideContent2/slideContent2';
+import './projects.css'
 
 export default function Slider(props) {
 
