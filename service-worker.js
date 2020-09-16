@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tomas-avila-portfolio/precache-manifest.5c529bfc483f80bc40861f877d248b48.js"
+  "/tomas-avila-portfolio/precache-manifest.15c623dd0bdc71aea58679acfec4d49c.js"
 );
 
 self.addEventListener('message', (event) => {
