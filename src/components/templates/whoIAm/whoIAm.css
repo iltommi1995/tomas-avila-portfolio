@@ -71,5 +71,83 @@
 }
 
 .my-social-icons > a > img {
-    height: 2em
+    height: 2em;
+    transition: transform 0.5s;
+}
+
+.my-social-icons > a > img:hover {
+    transform: rotate(30deg);
+}
+
+@media screen and (max-width: 768px) {
+    .my-image-container {
+        grid-column: span 12;
+        grid-row: 4/10;
+        display: flex;
+        justify-content: center;  
+        align-items: center; 
+    }
+
+    .my-image {
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    background-size: 180%;
+    background-position-x: 50%;
+    background-position-y: 60%;
+    }
+
+    .my-name {
+    grid-column: span 12;
+    grid-row: 10/12;
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+    .my-description {
+        grid-column: 2/12;
+        grid-row: 12/15;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+    }
+
+    .my-skills {
+    grid-column: 2/12;
+    grid-row: 16/ 20;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    
+    }
+
+    .my-skills-icons {
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .my-skills-icons > img {
+        height: 2em
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .my-name > h1 {
+       font-size: 1.5em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .my-name > h1 {
+       font-size: 1.5em;
+    }
+    p {
+        font-size: 0.8em;
+    }
 }

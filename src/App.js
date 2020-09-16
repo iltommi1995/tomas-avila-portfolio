@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import "./App.css";
 import Slider from './components/organisms/slider';
-import Header from './components/organisms/header';
+import Header from './components/organisms/header/header';
 import { Route, Switch } from 'react-router-dom';
 
 import WhoIAm from "./components/templates/whoIAm/whoIAm"
@@ -10,9 +10,18 @@ import Projects from "./components/templates/projects/projects"
 import Hobbies from "./components/templates/hobbies/hobbies"
 
 export default function App() {
+
+  const [prova, setProva] = useState("");
+
+  const chiudiNav = function () {
+    setProva("mobile-nav-active")
+  }
+
+
+
   return (
-    <div class="container">
-      <Header />
+    <div class="container" onClick={chiudiNav}>
+      <Header nome={prova} />
       <Switch>
         <Route exact path="/tomas-avila-portfolio" component={WhoIAm} />
         <Route path="/projects" component={Projects} />
