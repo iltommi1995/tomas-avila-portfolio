@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './slideContent2.css';
 
 export default function SlideContent(props) {
     let Background = process.env.PUBLIC_URL + props.path

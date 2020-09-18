@@ -44,12 +44,38 @@
   grid-row: 2/4;
 }
 
-.slide-paragraph {
+.slide-video {
   grid-column: 4/13;
-  grid-row: 4/5;
+  grid-row: 2/6;
 }
 
-.slide-video {
-  grid-column: 4/ 13;
-  grid-row: 5/9;
+.slide-paragraph {
+  grid-column: 4/13;
+  grid-row: 7/9;
+}
+
+.slide-button {
+  grid-column: 4/13;
+  grid-row: 9/11;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-button > a {
+  background-color: black;
+  color:white;
+  padding: 10px;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+  height:30px; 
+  line-height: 1.7em;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.slide-button > a:hover {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
 }

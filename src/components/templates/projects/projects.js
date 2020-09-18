@@ -1,24 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 import SlideContent from '../../organisms/slideContent/slideContent';
 import SlideContent2 from '../../organisms/slideContent2/slideContent2';
-import './projects.css'
+
+import './projects.css';
+
+import Data from '../../../data/projects.json';
 
 export default function Slider(props) {
 
-    let sliderArr = [<SlideContent title="Cinema site" path="/img/position_1.png" developed="React, html 5, css 3, Java Script" text="Site made using React. It's the first project i developed with React, for an university course." />, <SlideContent2 title="Slide 2" path="/img/position_2.png" />, <SlideContent2 title="Slide 3" path="/img/position_3.png" />, <SlideContent title="Slide 4" path="/img/position_4.png" />, <SlideContent title="Slide 5" path="/img/position_1.png" />]
-
-
-
     const [x, setX] = useState(0)
 
-
     const goUp = () => {
-        x === 0 ? setX(-100 * (sliderArr.length - 1)) : setX(x + 100);
+        x === 0 ? setX(-100 * (Data.length - 1)) : setX(x + 100);
     }
 
     const goDown = () => {
-        x === -100 * (sliderArr.length - 1) ? setX(0) : setX(x - 100)
+        x === -100 * (Data.length - 1) ? setX(0) : setX(x - 100)
 
     }
 
@@ -39,14 +37,25 @@ export default function Slider(props) {
     return (
         <div className="slider">
             {
-                sliderArr.map((item, index) => {
-                    return (
-                        <div className="slide" style={{
-                            transform: `translateY(${x}%)`
-                        }}>
-                            {item}
-                        </div>
-                    )
+                Data.map((item, index) => {
+                    if (item.type === "SlideContent") {
+                        return (
+                            <div className="slide" style={{
+                                transform: `translateY(${x}%)`
+                            }}>
+                                <SlideContent title={item.title} path={item.path} developed={item.developed} text={item.text} video={item.video} link={item.link} />
+                            </div>
+                        )
+                    }
+                    else {
+                        return (
+                            <div className="slide" style={{
+                                transform: `translateY(${x}%)`
+                            }}>
+                                <SlideContent2 title={item.title} path={item.path} developed={item.developed} text={item.text} video={item.video} link={item.link} />
+                            </div>
+                        )
+                    }
                 })
             }
             <div id="go-up" onClick={goUp}>

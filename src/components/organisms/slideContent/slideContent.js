@@ -2,15 +2,19 @@ import React from 'react';
 
 import Player from "../../molecules/player";
 
+import './slideContent.css';
+
 export default function SlideContent(props) {
     let Background = process.env.PUBLIC_URL + props.path
     return (
         <div className="container">
             <div className="slide-content-text">
-                <h1 className="slide-title">{props.subTitle}</h1>
-                <p className="slide-paragraph">{props.text} </p>
                 <div className="slide-video">
-                    <Player src={process.env.PUBLIC_URL + "/video/project_cinema.mp4"} />
+                    <Player src={process.env.PUBLIC_URL + props.video} />
+                </div>
+                <p className="slide-paragraph">{props.text} </p>
+                <div className="slide-button">
+                    <a href={props.link} target="_blank">Visit the site</a>
                 </div>
             </div>
             <div className="slide-content-image" style={{ backgroundImage: `url(${Background})` }}>
