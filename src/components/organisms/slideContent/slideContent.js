@@ -2,7 +2,7 @@ import React from 'react';
 
 import Player from "../../molecules/player";
 
-import './slideContent.css';
+import './slideContent.scss';
 
 export default function SlideContent(props) {
     let Background = process.env.PUBLIC_URL + props.path

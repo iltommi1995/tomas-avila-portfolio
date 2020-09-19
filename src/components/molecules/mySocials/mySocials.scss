@@ -1,0 +1,31 @@
+@import '../../../scss/variables.scss';
+
+.my-socials {
+    grid-column: 5/9;
+    grid-row: 21/ 24;
+    color: $secColor;
+    padding-left: 10px;
+    padding-right: 10px;
+    @media screen and (max-width: $tablet) {
+            grid-column: 2/12;
+            grid-row: 20/ 23;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: $secColor;
+        }
+
+    .my-social-icons {
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        a {
+            img {
+                height: 2em;
+                transition: transform 0.5s;
+            }
+            :hover {
+                transform: rotate(30deg);
+            }
+        }
+    }
+}

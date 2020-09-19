@@ -1,5 +1,7 @@
 /* App.js */
 
+@import './scss/variables.scss';
+
 body {
   margin: 0px;
 }
@@ -7,7 +9,7 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: $secColor;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(24, 1fr);

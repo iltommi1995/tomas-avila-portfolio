@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import "./header.css";
+import "./header.scss";
 
 export default function Header(props) {
     const [mobileNav, setMobileNav] = useState(props.nome);
