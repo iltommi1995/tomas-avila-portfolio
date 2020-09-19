@@ -11,6 +11,8 @@ export default class Player extends Component {
                 height="auto"
                 playIcon
                 loop={true}
+                volume={0}
+                muted={true}
             />
         );
     }

@@ -11,42 +11,42 @@
     },
     {
         "id": 2,
-        "title": "Sito Vaquita",
+        "title": "My photo portfolio",
         "path": "/img/position_2.png",
-        "developed": "Html 5, css 3",
-        "text": "",
-        "video": "",
+        "developed": "React, html 5, css 3, Java Script",
+        "text": "This is a prototype for a site to expose my photos. The work is still in progress.",
+        "video": "/video/project_photo_portfolio.mp4",
         "type": "SlideContent2",
-        "link": "https://sito-cinema.herokuapp.com/"
+        "link": "https://photo-portfolio-tomas.herokuapp.com/"
     },
     {
         "id": 3,
         "title": "Sito Vaquita",
         "path": "/img/position_3.png",
         "developed": "Html 5, css 3",
-        "text": "",
-        "video": "",
+        "text": "Site made using only html5 and css3. It was my first university project.",
+        "video": "/video/project_vaquita.mp4",
         "type": "SlideContent2",
-        "link": "https://sito-cinema.herokuapp.com/"
+        "link": "https://sito-vaquita.herokuapp.com/"
     },
     {
         "id": 4,
-        "title": "Sito Vaquita",
+        "title": "First Italfrigo project",
         "path": "/img/position_4.png",
-        "developed": "Html 5, css 3",
-        "text": "",
-        "video": "",
+        "developed": "Wordpress, html 5, css 3, Java Script",
+        "text": "This is my first project for Italfrigo Srl. You can see the products and request a quote.",
+        "video": "/video/project_macchineperghiaccio.mp4",
         "type": "SlideContent",
-        "link": "https://sito-cinema.herokuapp.com/"
+        "link": "https://macchineperghiaccio.com/"
     },
     {
         "id": 5,
-        "title": "Sito Vaquita",
+        "title": "Wireframe for hospital app",
         "path": "/img/position_1.png",
-        "developed": "Html 5, css 3",
-        "text": "",
-        "video": "",
+        "developed": "Photoshop, Power Point",
+        "text": "This is another project for the university. It's a prototype for an app for the orientation inside the Milan's hospitals.",
+        "video": "/video/project_app_sanita.mp4",
         "type": "SlideContent",
-        "link": "https://sito-cinema.herokuapp.com/"
+        "link": "https://drive.google.com/file/d/1RsYbZI4IPX1gBoQAHEvhmNprnA5k2YyC/view?pli=1"
     }
 ]
