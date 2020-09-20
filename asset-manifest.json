@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tomas-avila-portfolio/static/css/main.9a10b291.chunk.css",
-    "main.js": "/tomas-avila-portfolio/static/js/main.465604e1.chunk.js",
-    "main.js.map": "/tomas-avila-portfolio/static/js/main.465604e1.chunk.js.map",
+    "main.css": "/tomas-avila-portfolio/static/css/main.803eb3d6.chunk.css",
+    "main.js": "/tomas-avila-portfolio/static/js/main.481ec250.chunk.js",
+    "main.js.map": "/tomas-avila-portfolio/static/js/main.481ec250.chunk.js.map",
     "runtime-main.js": "/tomas-avila-portfolio/static/js/runtime-main.da040ec8.js",
     "runtime-main.js.map": "/tomas-avila-portfolio/static/js/runtime-main.da040ec8.js.map",
     "static/js/2.093ac530.chunk.js": "/tomas-avila-portfolio/static/js/2.093ac530.chunk.js",
     "static/js/2.093ac530.chunk.js.map": "/tomas-avila-portfolio/static/js/2.093ac530.chunk.js.map",
     "index.html": "/tomas-avila-portfolio/index.html",
-    "precache-manifest.65b1f5e0f50b298e0604aed5cc6b192b.js": "/tomas-avila-portfolio/precache-manifest.65b1f5e0f50b298e0604aed5cc6b192b.js",
+    "precache-manifest.6c2f17a3e290676e2ce9ffede5ae5f0d.js": "/tomas-avila-portfolio/precache-manifest.6c2f17a3e290676e2ce9ffede5ae5f0d.js",
     "service-worker.js": "/tomas-avila-portfolio/service-worker.js",
-    "static/css/main.9a10b291.chunk.css.map": "/tomas-avila-portfolio/static/css/main.9a10b291.chunk.css.map",
+    "static/css/main.803eb3d6.chunk.css.map": "/tomas-avila-portfolio/static/css/main.803eb3d6.chunk.css.map",
     "static/js/2.093ac530.chunk.js.LICENSE.txt": "/tomas-avila-portfolio/static/js/2.093ac530.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.da040ec8.js",
     "static/js/2.093ac530.chunk.js",
-    "static/css/main.9a10b291.chunk.css",
-    "static/js/main.465604e1.chunk.js"
+    "static/css/main.803eb3d6.chunk.css",
+    "static/js/main.481ec250.chunk.js"
   ]
 }
