@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Player from "../../molecules/player";
+import Player from "../../molecules/player/player";
 
 import './slideContent.scss';
 
