@@ -21,7 +21,7 @@ export default function SlideContent(props) {
                 <h2>
                     {props.title}
                 </h2>
-                <p>Developed with: {props.developed}</p>
+                <p>{props.developed}</p>
             </div>
         </div>
     )
