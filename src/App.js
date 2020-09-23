@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-
-import "./App.css";
-import Slider from './components/organisms/slider';
-import Header from './components/organisms/header/header';
 import { Route, Switch } from 'react-router-dom';
 
+import "./App.scss";
+
+import Header from './components/organisms/header/header';
 import WhoIAm from "./components/templates/whoIAm/whoIAm"
 import Projects from "./components/templates/projects/projects"
 import Hobbies from "./components/templates/hobbies/hobbies"

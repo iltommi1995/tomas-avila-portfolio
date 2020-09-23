@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Schegge di vetro",
+        "path": "/img/position_1.png",
+        "developed": "Cinema webzin created by me.",
+        "text": "Schegge di vetro is a cinema webzin created in 2015.",
+        "video": "/video/hobbies_scheggedivetro.mp4",
+        "type": "SlideContent",
+        "link": "http://scheggedivetro.org/"
+    },
+    {
+        "id": 2,
+        "title": "SDV Productions",
+        "path": "/img/position_2.png",
+        "developed": "Youtube channel about cinema",
+        "text": "I write, direct and edit the videos for the yt channel. If you're interested in cinema, subscribe!",
+        "video": "/video/hobbies_sdvproductions.mp4",
+        "type": "SlideContent2",
+        "link": "https://www.youtube.com/channel/UCM9VcbN0xkcJERMXiS5RH-Q"
+    },
+    {
+        "id": 3,
+        "title": "Photography",
+        "path": "/img/position_3.png",
+        "developed": "Photos made with lumix gh5 and Pentax me super",
+        "text": "I love digital and analog photography. I'm trying to develop web photographic portfolio. For now you can see my photos on my instagram profile.",
+        "video": "/video/project_photo_portfolio.mp4",
+        "type": "SlideContent2",
+        "link": "https://www.instagram.com/tomasavila1995/"
+    }
+]
